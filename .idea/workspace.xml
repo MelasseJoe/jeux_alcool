@@ -12,7 +12,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9efb4aaa-e17c-4d07-905e-1663643f83fd" name="Default" comment="">
+    <list default="true" id="9efb4aaa-e17c-4d07-905e-1663643f83fd" name="Default" comment="Modifications majeures : &#10;* Reorganisation des Adapter, Lite et Activity dans de nouveaux folders&#10;* Ajout d'un bouton sur le menu au niveau de A venir&#10;* Ajout de la liste &quot;cartes et dés&quot; au clique sur A venir&#10;* Ajout d'un nouvel écran qui s'affiche lors du clique sur dés">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/activity/desActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/liste/desCartesListe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_des.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -23,25 +26,28 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/html/chants/Tous à Mexico.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/html/chants/Tous à Mexico.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/chants_Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/chants_Liste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/intro_activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/intro_activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/jeux_Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/jeux_Liste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/jeux_activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/jeux_activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/html/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/html/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/html/menu_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/html/menu_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/RepertoireAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/adapter/RepertoireAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/RepertoireAdapter_chants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/adapter/RepertoireAdapter_chants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/chants_Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/liste/chants_Liste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/intro_activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/activity/intro_activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/jeux_Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/liste/jeux_Liste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/jeux_activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/activity/jeux_activity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/menu_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/menu_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/regles_Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/regles_Liste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/regles_Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/liste/regles_Liste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_jeux.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_jeux.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_jeuxliste.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_jeuxliste.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@9B131FFAZ003RM]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\Arnaud\.android\avd\Pixel_4_XL_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -70,6 +76,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectId" id="1thzj3uysug5j7MB52tWJ9HkqdX" />
   <component name="ProjectViewState">
@@ -78,7 +85,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="SerialNumber@9B131FFAZ003RM" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-09T16:41:53.793181100Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-09T17:11:04.303572100Z" />
     <property name="ExportApk.ApkPath" value="C:\Users\Arnaud\AndroidStudioProjects\jeux_alccol\app" />
     <property name="ExportApk.BuildType" value="release" />
     <property name="ExportApk.Flavors" value="" />
@@ -88,6 +95,7 @@
     <property name="android.profiler.active" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="ce041714f4eb3c230c" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/liste" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
@@ -95,6 +103,12 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Arnaud\AndroidStudioProjects\jeux_alccol\app\src\main\assets\html" />
       <recent name="C:\Users\Arnaud\AndroidStudioProjects\jeux_alccol\app\src\main\assets\html\jeux" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.student.devs.jeux_alccol.activity" />
+      <recent name="com.student.devs.jeux_alccol.adapter" />
+      <recent name="com.student.devs.jeux_alccol" />
+      <recent name="com.student.devs.jeux_alccol.liste" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Arnaud\AndroidStudioProjects\jeux_alccol\app\src\main\assets" />
@@ -232,27 +246,47 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modifications majeures : &#10;* Reorganisation des Adapter, Lite et Activity dans de nouveaux folders&#10;* Ajout d'un bouton sur le menu au niveau de A venir&#10;* Ajout de la liste &quot;cartes et dés&quot; au clique sur A venir&#10;* Ajout d'un nouvel écran qui s'affiche lors du clique sur dés" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifications majeures : &#10;* Reorganisation des Adapter, Lite et Activity dans de nouveaux folders&#10;* Ajout d'un bouton sur le menu au niveau de A venir&#10;* Ajout de la liste &quot;cartes et dés&quot; au clique sur A venir&#10;* Ajout d'un nouvel écran qui s'affiche lors du clique sur dés" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623257672710">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623257672710" />
+    <state x="743" y="389" width="608" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1623261072005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="389" width="608" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623261072005" />
     <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1623236942320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623236942320" />
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1623257032016">
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1623260599320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623257032016" />
-    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1623257032016">
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623260599320" />
+    <state x="569" y="88" key="CommitChangelistDialog2" timestamp="1623262635905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623257032016" />
-    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1623257032016">
+    <state x="569" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623262635905" />
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1623262467465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623257032016" />
-    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1623257032016">
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623262467465" />
+    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1623262467465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623257032016" />
+    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623262467465" />
+    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1623262467465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623262467465" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1623262467465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623262467465" />
     <state x="540" y="263" key="IDE.errors.dialog" timestamp="1623239528664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -261,14 +295,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623239334093" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1623239378062">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1623257192957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623239378062" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1623257057046">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623257192957" />
+    <state x="857" y="302" width="552" height="444" key="chooseDestDirectoryDialog" timestamp="1623260966252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623257057046" />
+    <state x="857" y="302" width="552" height="444" key="chooseDestDirectoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623260966252" />
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1623261306668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623261306668" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1623257534736">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623257534736" />
   </component>
   <component name="masterDetails">
     <states>

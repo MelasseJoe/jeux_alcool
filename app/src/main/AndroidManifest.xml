@@ -9,7 +9,7 @@
         android:roundIcon="@drawable/titre"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".intro_activity"
+        <activity android:name=".activity.intro_activity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,10 +17,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".jeux_activity"/>
-        <activity android:name=".jeux_Liste"/>
-        <activity android:name=".regles_Liste"/>
-        <activity android:name=".chants_Liste"/>
+        <activity android:name=".activity.jeux_activity"/>
+        <activity android:name=".activity.desActivity"/>
+        <activity android:name=".liste.jeux_Liste"/>
+        <activity android:name=".liste.regles_Liste"/>
+        <activity android:name=".liste.chants_Liste"/>
+        <activity android:name=".liste.desCartesListe"/>
         <activity android:name=".menu_test"
             android:screenOrientation="portrait"/>
     </application>

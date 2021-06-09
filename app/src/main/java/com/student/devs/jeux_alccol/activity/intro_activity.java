@@ -1,4 +1,4 @@
-package com.student.devs.jeux_alccol;
+package com.student.devs.jeux_alccol.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
+
+import com.student.devs.jeux_alccol.R;
+import com.student.devs.jeux_alccol.menu_test;
 
 public class intro_activity extends AppCompatActivity
 {

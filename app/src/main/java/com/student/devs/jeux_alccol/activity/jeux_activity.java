@@ -1,4 +1,4 @@
-package com.student.devs.jeux_alccol;
+package com.student.devs.jeux_alccol.activity;
 
 
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
+
+import com.student.devs.jeux_alccol.R;
 
 public class jeux_activity extends AppCompatActivity
 {

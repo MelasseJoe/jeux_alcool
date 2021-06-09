@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.jeux_activity"
+    tools:context=".activity.desActivity"
     android:orientation="vertical"
     android:background="#ffffff">
 
-    <WebView
-        android:layout_weight="1"
-        android:id="@+id/webview"
+
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="0dp" />
+        android:layout_height="match_parent"
+        android:text="@string/pipotron"/>
 
 </LinearLayout>

@@ -22,4 +22,6 @@ window.addEventListener( 'load', ev => {
     document.getElementById("chants").style.bottom = 621 * ratioEcran;
     document.getElementById("regles").style.left = 648 * ratioEcran;
     document.getElementById("regles").style.bottom = 927 * ratioEcran;
+    document.getElementById("desCartes").style.left = 628 * ratioEcran;
+    document.getElementById("desCartes").style.bottom = 569 * ratioEcran;
 }, false );

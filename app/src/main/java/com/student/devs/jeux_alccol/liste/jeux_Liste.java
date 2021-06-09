@@ -1,4 +1,4 @@
-package com.student.devs.jeux_alccol;
+package com.student.devs.jeux_alccol.liste;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+
+import com.student.devs.jeux_alccol.R;
+import com.student.devs.jeux_alccol.adapter.RepertoireAdapter;
+import com.student.devs.jeux_alccol.activity.jeux_activity;
 
 import java.io.IOException;
 import java.util.ArrayList;

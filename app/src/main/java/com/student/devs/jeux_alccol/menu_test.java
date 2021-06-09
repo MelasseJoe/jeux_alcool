@@ -11,6 +11,11 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import com.student.devs.jeux_alccol.liste.chants_Liste;
+import com.student.devs.jeux_alccol.liste.desCartesListe;
+import com.student.devs.jeux_alccol.liste.jeux_Liste;
+import com.student.devs.jeux_alccol.liste.regles_Liste;
+
 public class menu_test extends AppCompatActivity
 {
     private final static int DIALOG_ALERT = 0;
@@ -97,6 +102,12 @@ class MyWebViewClient extends WebViewClient
         else if(url.equals("jeux://chants"))
         {
             Intent i = new Intent(context, chants_Liste.class);
+            context.startActivity(i);
+            return true;
+        }
+        else if(url.equals("jeux://desCartes"))
+        {
+            Intent i = new Intent(context, desCartesListe.class);
             context.startActivity(i);
             return true;
         }
