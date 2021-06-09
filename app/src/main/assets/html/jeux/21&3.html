@@ -1,0 +1,68 @@
+<html>
+<head><script src="../jquery.js"></script><script src="../jeu.js"></script></head>
+<style>
+@font-face {
+    font-family:"amethysta";
+    src:url("file:///android_asset/font/amethysta.ttf");
+}
+div {
+    font-family: "amethysta";
+	text-align: justify;
+	color: #4f4846;
+	padding:2%;
+}
+h1 {
+    color: #ad5f55;
+    position:relative;
+}
+
+.image1 {
+    width:100px;
+    padding:auto;
+    right:0px;
+    position:absolute;
+    bottom:10px;
+}
+hr {
+    color: #ad5f55;
+}
+h3 {
+    color: #ad5f55;
+}
+
+.image2 {
+    width:300px;
+}
+
+.wink {
+    width:35px;
+}
+
+.logo {
+    width:32px;
+}
+</style>
+<div>
+    <h1> <span id="titre">Le 21</span> <img class="image1" src="file:///android_asset/images/beer_3_5.png" align="right"/>  </h1>
+    <div>
+        <p style="position:relative;bottom:8px;display:inline;"><b><font color="#f0ba7a">Nécessite :</font></b></p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img class="logo" src="file:///android_asset/images/horloge20min.png" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img class="logo" style="position:relative;top:2px"src="file:///android_asset/images/4_or_more_user.png" />
+    </div>
+    <hr/>
+    <h3> Les règles du jeu </h3>
+    Le but du jeu est de ne jamais être le joueur qui dira le "<font color="#f0ba7a">21</font>".<br>
+    <br>
+    Les joueurs vont compter les uns après les autres en disant un à trois chiffres à chaque fois.
+    Exemple: le premier joueur dit "1", le joueur à sa gauche dit "2, 3" et ainsi de suite.<br>
+    <br>
+    Chaque joueur peut dire un à trois chiffres à chaque tour mais ne peut pas dire autant de chiffres que le joueur avant lui.
+    Exemple: le joueur avant lui dit "19". Il ne peut pas dire seulement "20" donc il est obligé de dire "20,21" et de perdre.<br>
+    <br>
+    Si un joueur dit "<font color="#f0ba7a">21</font>" il perd mais a le droit d'inventer une règle. Par exemple : changer l'ordre de certains chiffres, remplacer un chiffre par un mot ou même s'inspirer de la
+    section règles de cette application.<img class="wink" style="position:relative;top:4px;right:6px" src="file:///android_asset/images/Wink.png" /><br>
+    <br>
+    Un joueur perd quand il parle et que ce n'était pas son tour, s'il dit autant de chiffres que le joueur avant lui, s'il se trompe de chiffre ou de mot ou s'il dit "<font color="#f0ba7a">21</font>".
+    Chaque fois que quelqu'un perd il boit 1 gorgée.
+</div>
+</html>

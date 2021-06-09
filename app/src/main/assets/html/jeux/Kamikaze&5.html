@@ -1,0 +1,72 @@
+<html>
+<head><script src="../jquery.js"></script><script src="../jeu.js"></script></head>
+<style>
+@font-face {
+    font-family:"amethysta";
+    src:url("file:///android_asset/font/amethysta.ttf");
+}
+div {
+    font-family: "amethysta";
+	text-align: justify;
+	color: #4f4846;
+	padding:2%;
+}
+h1 {
+    color: #ad5f55;
+    position:relative;
+}
+
+.image1 {
+    width:100px;
+    padding:auto;
+    right:0px;
+    position:absolute;
+    bottom:10px;
+}
+hr {
+    color: #ad5f55;
+}
+h3 {
+    color: #ad5f55;
+}
+
+.image2 {
+    width:300px;
+}
+
+.wink {
+    width:35px;
+}
+
+.logo {
+    width:32px;
+}
+</style>
+<div>
+    <h1> <span id="titre">Le Kamikaze</span> <img class="image1" src="file:///android_asset/images/beer_5_5.png" align="right"/>  </h1>
+    <div>
+        <p style="position:relative;bottom:8px;display:inline;"><b><font color="#f0ba7a">Nécessite :</font></b></p>&nbsp; &nbsp; &nbsp;
+        <img class="logo" src="file:///android_asset/images/horloge20min.png" /> &nbsp; &nbsp; &nbsp;
+        <img class="logo" src="file:///android_asset/images/cartes.png" /> &nbsp; &nbsp; &nbsp;
+        <img class="logo" style="position:relative;top:2px"src="file:///android_asset/images/user.png" />
+    </div>
+    <hr/>
+    <h3> Les règles du jeu </h3>
+    En 1 contre 1, l'un est le joueur et l'autre le distributeur (les rôles s'inverseront).
+    Le distributeur place 5 cartes face découverte côte à côte.
+    <br>
+    <br>
+    <center> <img class="image2" src="file:///android_asset/images/cartes_kamikaze.png" /> </center>
+    <br>
+    Le joueur doit deviner si la carte suivante sera supérieure ou inférieure.
+    <br>
+    Son objectif est de faire le bon pronostic 5 fois de suite (c'est-à-dire un bon pronostic par carte sur la ligne).<br>
+    À chaque pronostic, le distributeur place la carte du sommet du paquet sur la carte de la ligne.
+    Si le joueur fait le bon pronostic, il passe à la carte suivante.<br>
+    <br>
+    Sinon, s'il perd à la première carte, il boit 5 gorgées. S'il perd à la deuxième, il en boit 4, 3 à la troisième, etc...
+    Lorsque le joueur fait 5 bons pronostics de suite ou quand il n'y a plus de cartes dans le paquet, le joueur devient distributeur et inversement.
+    <br><br>
+    <b><font color="#f0ba7a">Petit conseil : </font></b>aprés avoir été joueur et distributeur une fois, faites une petite pause.<img class="wink" style="position:relative;top:4px;right:6px" src="file:///android_asset/images/Wink.png" />
+</div>
+</html>

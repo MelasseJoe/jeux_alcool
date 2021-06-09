@@ -1,0 +1,70 @@
+<html>
+<head><script src="jquery.js"></script></head>
+<body>
+<div class="page">
+    <img id="logo" src="file:///android_asset/images/logo_menu2.png"/>
+    <div class="carre" id="jeux">
+        <a href="jeux://jeux"> </a>
+    </div>
+    <div class="carre" id="regles">
+        <a href="jeux://regles"> </a>
+    </div>
+    <div class="carre" id="chants">
+        <a href="jeux://chants"> </a>
+    </div>
+</div>
+</body>
+<script src="menu.js"></script>
+<style  type="text/css">
+html {
+	background: white url("file:///android_asset/images/FondV2.png") no-repeat right bottom;
+	background-size: contain;
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+#logo {
+z-index:0;
+position: absolute;
+top:0;
+width:90%;
+}
+
+.carre {
+  position: absolute;
+  padding-top: 20%;
+  width:20%;
+	-webkit-border-radius:100px;
+	z-index:2;
+}
+
+a {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	-webkit-tap-highlight-color:rgba(251, 202, 33, 0.38);
+	-webkit-border-radius:100px;
+	z-index:3;
+}
+
+#jeux {
+	bottom: 44%;
+	left: 26%;
+}
+
+#regles {
+	bottom: 27%;
+	left: 58%;
+}
+
+#chants {
+	bottom: 30%;
+	left: 18%;
+}
+</style>
+</html>

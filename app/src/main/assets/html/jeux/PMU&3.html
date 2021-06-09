@@ -1,0 +1,82 @@
+<html>
+<head><script src="../jquery.js"></script><script src="../jeu.js"></script></head>
+<style>
+@font-face {
+    font-family:"amethysta";
+    src:url("file:///android_asset/font/amethysta.ttf");
+}
+div {
+    font-family: "amethysta";
+	text-align: justify;
+	color: #4f4846;
+	padding:2%;
+}
+h1 {
+    color: #ad5f55;
+    position:relative;
+}
+
+.image1 {
+    width:100px;
+    padding:auto;
+    right:0px;
+    position:absolute;
+    bottom:10px;
+}
+hr {
+    color: #ad5f55;
+}
+h3 {
+    color: #ad5f55;
+}
+
+.image2 {
+    width:200px;
+}
+
+.wink {
+    width:35px;
+}
+
+.logo {
+    width:32px;
+}
+</style>
+<div>
+    <h1> <span id="titre">Le PMU</span> <img class="image1" src="file:///android_asset/images/beer_3_5.png" align="right"/>  </h1>
+    <div>
+        <p style="position:relative;bottom:8px;display:inline;"><b><font color="#f0ba7a">Nécessite :</font></b></p>&nbsp; &nbsp; &nbsp;
+        <img class="logo" src="file:///android_asset/images/horloge3min.png" /> &nbsp; &nbsp; &nbsp;
+        <img class="logo" src="file:///android_asset/images/cartes.png" /> &nbsp; &nbsp; &nbsp;
+        <img class="logo" style="position:relative;top:2px"src="file:///android_asset/images/2_or_more_user.png" />
+    </div>
+    <hr/>
+    <h3> Les règles du jeu </h3>
+    Dans un premier temps disposez les cartes comme sur l'image ci-dessous.
+    <br>
+    <br>
+    <center> <img class="image2" src="file:///android_asset/images/PMU_image.png" /> </center>
+    <br>
+    <b><font color="#f0ba7a">Phase de paris : </font></b>chaque joueur parie sur un cheval (une dame plus exactement). Chacun peut parier absolument ce qu'il veut
+    : 1 gorgée, 2, 3 ou même un cul sec !<br>
+    Il est même possible de parier sur plusieurs cartes à la fois.
+    Mais attention, pour que votre pari soit approuvé vous devez dans un premier temps boire ce que vous pariez.
+    Exemple : vous venez de parier 4 gorgées sur le carreau donc vous devez boire 4 gorgées avant que le jeu commence.
+    <br>
+    <br>
+    <b><font color="#f0ba7a">La course : </font></b>Le maître de cérémonie tire les cartes dans l'ordre du paquet. Si la carte tirée est un coeur on fait
+    avancer la dame de coeur.
+    Si c'est un pique, la dame de pique. Etc...
+    <br>
+    Lorsque toutes les dames sont au moins au même niveau que les deux premières cartes des côtés, on retourne ces dernières.<br>
+    À ce moment là, un shifoumi doit être fait entre une personne ayant parié sur la couleur de la carte de droite et une autre sur celle de gauche.
+    Le perdant voit son cheval redescendre d'un cran (même s'il avait fini), le gagnant ne bouge pas.<br>
+    Dans le cas où une des deux cartes du côté n'a pas de parieur, le cheval de la même couleur doit redescendre.
+    Le jeu continue ainsi et s'arrête lorsque 3 des 4 chevaux ont avancé de 6 pas.
+    <br>
+    <br>
+    <b><font color="#f0ba7a">La distribution : </font></b>Une fois la course finie ceux qui ont parié sur le cheval gagnant peuvent distribuer le double de ce qu'ils ont parié.
+    Les deuxièmes distribuent ce qu'ils ont parié. Les troisièmes boivent ce qu'ils ont parié.
+    Les perdants boivent le double de ce qu'ils ont parié.
+</div>
+</html>

@@ -1,0 +1,76 @@
+<html>
+<head><script src="../jquery.js"></script><script src="../jeu.js"></script></head>
+<style>
+@font-face {
+    font-family:"amethysta";
+    src:url("file:///android_asset/font/amethysta.ttf");
+}
+div {
+    font-family: "amethysta";
+	text-align: justify;
+	color: #4f4846;
+	padding:2%;
+}
+h1 {
+    color: #ad5f55;
+    position:relative;
+}
+
+.image1 {
+    width:100px;
+    padding:auto;
+    right:0px;
+    position:absolute;
+    bottom:10px;
+}
+hr {
+    color: #ad5f55;
+}
+h3 {
+    color: #ad5f55;
+}
+
+.image2 {
+    width:300px;
+}
+
+.wink {
+    width:35px;
+}
+
+.logo {
+    width:32px;
+}
+</style>
+<div>
+    <h1> <span id="titre">Bus Magique</span>  <img class="image1" src="file:///android_asset/images/beer_4_5.png" align="right"/>  </h1>
+    <div>
+        <p style="position:relative;bottom:8px;display:inline;"><b><font color="#f0ba7a">Nécessite :</font></b></p>&nbsp; &nbsp; &nbsp;
+        <img class="logo" src="file:///android_asset/images/horloge15min.png" /> &nbsp; &nbsp; &nbsp;
+        <img class="logo" src="file:///android_asset/images/cartes.png" /> &nbsp; &nbsp; &nbsp;
+        <img class="logo" style="position:relative;top:2px"src="file:///android_asset/images/4_or_more_user.png" />
+    </div>
+    <hr/>
+    <h3> Les règles du jeu </h3>
+    Placez 5 cartes faces découverte comme sur l'image ci-dessous.
+    <br>
+    <br>
+    <center> <img class="image2" src="file:///android_asset/images/cartes_kamikaze.png" /> </center>
+    <br>
+    L'objectif est de deviner si la carte qui est au dessus du paquet est plus ou moins forte que la carte présente dans la ligne
+    (exemple: pour la première carte, plus ou moins forte que le Roi; pour la deuxième carte, plus ou moins forte que l'As, etc).<br>
+    <br>
+    Pour cela, tous les joueurs doivent mettre une main à l'horizontal devant eux.
+    Au compte de trois ils lèvent la main s'ils pensent que la prochaine carte sera supérieure, la baissent si inférieure ou ne la bougent pas si égale.
+    Chaque carte tirée est placée au dessus de la carte qu'elle remplace.<br>
+    Les joueurs ayant fait un bon pronostique continue sur la carte suivante. Ceux ayant perdus sont éliminés jusqu'à ce que tout le monde ait perdu.<br>
+    <br>
+    Les joueurs ayant réussi toute la ligne, c'est à dire fait 5 bons pronostiques
+    consécutifs, peuvent distribuer un cul sec.
+    Ceux qui ont perdu à la première carte boivent 5 gorgées, à la deuxième  4 gorgées, 3 à la troisième etc...<br>
+    <br>
+    Dans le cas où tout le monde perd avant la fin de la ligne entière, tous les joueurs recommencent au début de la ligne.
+    <br>
+    Le jeu s'arrête lorsqu'il n'y a plus de cartes dans le paquet.
+</div>
+</html>
