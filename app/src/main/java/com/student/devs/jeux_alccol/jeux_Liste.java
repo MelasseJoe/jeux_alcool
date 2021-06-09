@@ -7,9 +7,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,7 +14,6 @@ import java.util.List;
 
 public class jeux_Liste extends AppCompatActivity
 {
-    private AdView mAdView;
     ListView vue;
     List<String> nom = new ArrayList<String>();
     String[] liste;
@@ -28,11 +24,6 @@ public class jeux_Liste extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jeuxliste);
-
-
-        mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
         vue = findViewById(R.id.liste_vue);
 

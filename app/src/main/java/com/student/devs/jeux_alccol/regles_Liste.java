@@ -7,9 +7,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,7 +14,6 @@ import java.util.List;
 
 public class regles_Liste extends AppCompatActivity
 {
-    private AdView mAdView;
     ListView vue;
     List<String> nom = new ArrayList<String>();
     String[] liste;
@@ -30,10 +26,6 @@ public class regles_Liste extends AppCompatActivity
         setContentView(R.layout.activity_jeuxliste);
 
         vue = findViewById(R.id.liste_vue);
-
-        mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
         try
         {

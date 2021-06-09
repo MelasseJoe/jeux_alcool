@@ -8,8 +8,6 @@ import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
 
-import com.google.android.gms.ads.MobileAds;
-
 public class intro_activity extends AppCompatActivity
 {
     ImageView dtc = null;
@@ -22,7 +20,6 @@ public class intro_activity extends AppCompatActivity
 
         dtc = findViewById(R.id.intro_titre);
         //alpha_animation(dtc,0.5f,0.5f,2000);
-        MobileAds.initialize(this, "ca-app-pub-8568387683210217~9706738286");
 
         new Handler().postDelayed(new Runnable()
         {

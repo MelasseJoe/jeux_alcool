@@ -92,7 +92,7 @@ class MyWebViewClient extends WebViewClient
         {
             Intent i = new Intent(context, regles_Liste.class);
             context.startActivity(i);
-            return true; 
+            return true;
         }
         else if(url.equals("jeux://chants"))
         {
