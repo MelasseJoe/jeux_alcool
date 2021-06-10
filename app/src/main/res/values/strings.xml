@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">jeux_alccol</string>
     <string name="pipotron">Tant que durera la fragilité actuelle, on ne peut se passer d\'arrêter de stigmatiser les principales voies s\'offrant à nous, à l\'avenir.</string>
+    <string-array name="numberOfDice">
+        <item>Lancer 1 dé</item>
+        <item>Lancer 2 dés</item>
+        <item>Lancer 3 dés</item>
+        <item>Lancer 4 dés</item>
+        <item>Lancer 5 dés</item>
+        <item>Lancer 6 dés</item>
+    </string-array>
+    <string name="rollDice">Lancer</string>
 </resources>

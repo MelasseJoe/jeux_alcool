@@ -7,10 +7,105 @@
     android:orientation="vertical"
     android:background="#ffffff">
 
-
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/pipotron"/>
 
+
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/dicesLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/firstDice"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/dice1"
+
+                />
+
+            <ImageView
+                android:id="@+id/secondDice"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/dice2"
+
+                android:layout_toEndOf="@id/firstDice" />
+
+            <ImageView
+                android:id="@+id/thirdDice"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/dice3"
+
+                android:layout_below="@id/firstDice"/>
+
+            <ImageView
+                android:id="@+id/fourthDice"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/dice4"
+
+                android:layout_below="@id/firstDice"
+                android:layout_toEndOf="@id/firstDice"
+                />
+
+            <ImageView
+                android:id="@+id/fifthDice"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="148dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/dice5"
+
+                android:layout_below="@id/firstDice"/>
+
+            <ImageView
+                android:id="@+id/sixthDice"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="148dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/dice6"
+
+                android:layout_below="@id/firstDice"
+                android:layout_toEndOf="@id/firstDice"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.8">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:width="140dp"
+            android:height="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/rollDice"
+            android:textColor="#ffffff"
+            android:background="@drawable/custom_roll_dice_button"
+            android:onClick="rollDice"/>
+
+    </RelativeLayout>
 </LinearLayout>
