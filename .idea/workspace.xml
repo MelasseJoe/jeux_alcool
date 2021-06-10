@@ -13,14 +13,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9efb4aaa-e17c-4d07-905e-1663643f83fd" name="Default" comment="Modifications majeures : &#10;* Reorganisation des Adapter, Lite et Activity dans de nouveaux folders&#10;* Ajout d'un bouton sur le menu au niveau de A venir&#10;* Ajout de la liste &quot;cartes et dés&quot; au clique sur A venir&#10;* Ajout d'un nouvel écran qui s'affiche lors du clique sur dés">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_roll_dice_button.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dice1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dice2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dice3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dice4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dice5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dice6.png" afterDir="false" />
+    <list default="true" id="9efb4aaa-e17c-4d07-905e-1663643f83fd" name="Default" comment="Modifications majeures : &#10;* Création de l'écran &quot;dés&quot;&#10;* Ajout des images des dés&#10;* Mise en place des dés">
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -33,15 +26,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/activity/desActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/devs/jeux_alccol/activity/desActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_des.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_des.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\Arnaud\.android\avd\Pixel_2_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@9B131FFAZ003RM]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -78,8 +69,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@C:\Users\Arnaud\.android\avd\Pixel_2_API_30.avd" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-10T17:59:39.627526700Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="SerialNumber@9B131FFAZ003RM" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-10T18:18:35.029311600Z" />
     <property name="ExportApk.ApkPath" value="C:\Users\Arnaud\AndroidStudioProjects\jeux_alccol\app" />
     <property name="ExportApk.BuildType" value="release" />
     <property name="ExportApk.Flavors" value="" />
@@ -243,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623262652751</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modifications majeures : &#10;* Création de l'écran &quot;dés&quot;&#10;* Ajout des images des dés&#10;* Mise en place des dés">
+      <created>1623348932764</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623348932764</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Modifications majeures : &#10;* Création de l'écran &quot;dés&quot;&#10;* Ajout des images des dés&#10;* Mise en place des dés">
+      <created>1623348970038</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623348970038</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -251,7 +256,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modifications majeures : &#10;* Reorganisation des Adapter, Lite et Activity dans de nouveaux folders&#10;* Ajout d'un bouton sur le menu au niveau de A venir&#10;* Ajout de la liste &quot;cartes et dés&quot; au clique sur A venir&#10;* Ajout d'un nouvel écran qui s'affiche lors du clique sur dés" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifications majeures : &#10;* Reorganisation des Adapter, Lite et Activity dans de nouveaux folders&#10;* Ajout d'un bouton sur le menu au niveau de A venir&#10;* Ajout de la liste &quot;cartes et dés&quot; au clique sur A venir&#10;* Ajout d'un nouvel écran qui s'affiche lors du clique sur dés" />
+    <MESSAGE value="Modifications majeures : &#10;* Création de l'écran &quot;dés&quot;&#10;* Ajout des images des dés&#10;* Mise en place des dés" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifications majeures : &#10;* Création de l'écran &quot;dés&quot;&#10;* Ajout des images des dés&#10;* Mise en place des dés" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623257672710">
@@ -278,10 +284,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623260599320" />
-    <state x="569" y="88" key="CommitChangelistDialog2" timestamp="1623262652013">
+    <state x="569" y="88" key="CommitChangelistDialog2" timestamp="1623348969257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="569" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623262652013" />
+    <state x="569" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1623348969257" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1623263288911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

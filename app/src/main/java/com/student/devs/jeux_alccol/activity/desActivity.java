@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.student.devs.jeux_alccol.R;
 
@@ -107,6 +108,7 @@ public class desActivity extends AppCompatActivity implements AdapterView.OnItem
 
     public void rollDice (View view) {
         getRandomDice(6);
+
         if (!isFirstClick) {
             firstDice.setBackground(Drawable.createFromPath(""));
             secondDice.setBackground(Drawable.createFromPath(""));
@@ -116,6 +118,8 @@ public class desActivity extends AppCompatActivity implements AdapterView.OnItem
             sixthDice.setBackground(Drawable.createFromPath(""));
             isFirstClick = true;
         }
+
+        Toast.makeText(getApplicationContext(), "Les jeux sont faits !", Toast.LENGTH_SHORT).show();
     }
 
     public void getRandomDice(int numberOfDices) {
