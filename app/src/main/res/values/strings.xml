@@ -10,4 +10,7 @@
         <item>Lancer 6 dés</item>
     </string-array>
     <string name="rollDice">Lancer</string>
+    <string name="carMessageTitle">Fonctionnalité bientôt disponible !</string>
+    <string name="cardMessage">Il vous sera bientôt possible de générer aléatoirement des cartes pour pouvoir jouer sans cartes physiques !</string>
+    <string name="cardMessage2">Mais notre fonctionnalité de génération aléatoire de dés est déjà disponible, alors profitez-en !</string>
 </resources>

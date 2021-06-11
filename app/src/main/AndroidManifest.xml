@@ -19,6 +19,7 @@
         </activity>
         <activity android:name=".activity.jeux_activity"/>
         <activity android:name=".activity.desActivity"/>
+        <activity android:name=".activity.cartesActivity"/>
         <activity android:name=".liste.jeux_Liste"/>
         <activity android:name=".liste.regles_Liste"/>
         <activity android:name=".liste.chants_Liste"/>

@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.student.devs.jeux_alccol.R;
+import com.student.devs.jeux_alccol.activity.cartesActivity;
 import com.student.devs.jeux_alccol.activity.desActivity;
 import com.student.devs.jeux_alccol.adapter.RepertoireAdapter_chants;
 import com.student.devs.jeux_alccol.activity.jeux_activity;
@@ -41,7 +42,7 @@ public class desCartesListe extends AppCompatActivity
             public void onItemClick(AdapterView<?> parent, View view, int position, long id)
             {
                 if (position == 0) {
-                    Intent i = new Intent(desCartesListe.this, jeux_activity.class);
+                    Intent i = new Intent(desCartesListe.this, cartesActivity.class);
                     startActivity(i);
                 }
                 else if (position == 1) {
